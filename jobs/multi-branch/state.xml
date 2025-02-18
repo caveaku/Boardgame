@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1214.v3f652804588d">
+  <sourceActions>
+    <entry>
+      <string>18981874-7918-4111-ae11-b80ae12d3f1d</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@5.7.0">
+          <remote>https://github.com/caveaku/Boardgame.git</remote>
+          <name>main</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

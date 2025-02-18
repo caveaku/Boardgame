@@ -1,0 +1,21 @@
+Branch indexing
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-3c469b9e8c3c85fb3380ee994b8f901f/.git # timeout=10
+Setting origin to https://github.com/caveaku/Boardgame.git
+ > git config remote.origin.url https://github.com/caveaku/Boardgame.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/dev
+Seen branch in repository origin/dr
+Seen branch in repository origin/main
+Seen branch in repository origin/ppb
+Seen branch in repository origin/test
+Seen 5 remote branches
+Obtained Jenkinsfilecave from ffae3b5c2d271bb21891e32873570a3ebcbfff79
+[8mha:////4EnMB3RzqFDv+ZxO5Slm9t4+CE40KBR0qtwiBI7HyeHMAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4K0tGd4qczTjD3ihswl9CrmjlTR+tH4nX2gY9xP0qaTNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor

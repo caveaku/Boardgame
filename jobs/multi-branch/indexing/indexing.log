@@ -1,0 +1,42 @@
+Started by user [8mha:////4AR9PA8mMIhddN0PKsCH3pU9itfjvjBAOm/W3qbLMBjYAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL95MSyVADQwefBvwAAAA==[0mcave
+[Sun Feb 16 05:34:55 UTC 2025] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote --symref -- https://github.com/caveaku/Boardgame.git # timeout=10
+Creating git repository in /var/lib/jenkins/caches/git-3c469b9e8c3c85fb3380ee994b8f901f
+ > git init /var/lib/jenkins/caches/git-3c469b9e8c3c85fb3380ee994b8f901f # timeout=10
+Setting origin to https://github.com/caveaku/Boardgame.git
+ > git config remote.origin.url https://github.com/caveaku/Boardgame.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote -h -- https://github.com/caveaku/Boardgame.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch dr
+      ‘Jenkinsfilecave’ found
+    Met criteria
+Scheduled build for branch: dr
+  Checking branch ppb
+      ‘Jenkinsfilecave’ found
+    Met criteria
+Scheduled build for branch: ppb
+  Checking branch main
+      ‘Jenkinsfilecave’ found
+    Met criteria
+Scheduled build for branch: main
+  Checking branch test
+      ‘Jenkinsfilecave’ found
+    Met criteria
+Scheduled build for branch: test
+  Checking branch dev
+      ‘Jenkinsfilecave’ found
+    Met criteria
+Scheduled build for branch: dev
+Processed 5 branches
+[Sun Feb 16 05:34:56 UTC 2025] Finished branch indexing. Indexing took 0.69 sec
+Finished: SUCCESS
